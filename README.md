@@ -2,6 +2,9 @@
 
 A **Streamlit application** that uses **LangGraph multi-agent system** to analyze products/brands from multiple customer personas perspectives using local **Ollama LLM** (deepseek-r1:14b).
 
+Google Colab link for Demo : https://colab.research.google.com/drive/19gIcJFglojtFIdfYD7JV3IovGmCUGusi?usp=sharing
+
+
 ## 🏗️ Architecture Overview
 
 ```mermaid
