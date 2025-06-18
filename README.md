@@ -2,6 +2,11 @@
 
 A **Streamlit application** that uses **LangGraph multi-agent system** to analyze products/brands from multiple customer personas perspectives using local **Ollama LLM** (deepseek-r1:14b).
 
+## 🎥 Demo Video
+
+https://github.com/your-username/creative-agency-ai-analyst/assets/demo.mp4
+
+
 Google Colab link for Demo : https://colab.research.google.com/drive/19gIcJFglojtFIdfYD7JV3IovGmCUGusi?usp=sharing
 
 ## 📝 Sample Inputs
