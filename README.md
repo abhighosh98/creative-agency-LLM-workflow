@@ -4,6 +4,127 @@ A **Streamlit application** that uses **LangGraph multi-agent system** to analyz
 
 Google Colab link for Demo : https://colab.research.google.com/drive/19gIcJFglojtFIdfYD7JV3IovGmCUGusi?usp=sharing
 
+## 📝 Sample Inputs
+
+### Product Description Example
+
+**PowerSpoon Protein Ice Cream**
+
+🍦 **Core Features**
+- **High‑Protein Recipe** – delivers 20 g whey protein per ½‑cup serving, supporting muscle recovery and satiety
+- **Low Sugar & Fat** – uses natural sweeteners (stevia/erythritol), 70–85% less sugar than traditional pints
+- **Creamy Texture, Indulgent Taste** – engineered with protein-fiber blends (whey + milk protein + prebiotics) for smooth, authentic ice-cream feel
+- **Clean‑Label Ingredients** – minimal processing, no artificial colors, gluten-free, keto- and fitness‑friendly
+- **Flavor Variety & Mix‑ins** – classic flavors (Chocolate, Vanilla, Salted Caramel) plus mix-ins like nuts & fruit chunks
+
+🎯 **Target Market**
+- Fitness‑minded consumers (ages 18–45), including gym-goers, athletes, and active professionals
+- Health‑conscious snackers seeking indulgence without guilt: low sugar, high protein
+- Dieters and wellness followers adopting high-protein or low-carb eating trends
+- Functional-food fans who want desserts that support satiety, muscle maintenance, and wellness goals
+
+💡 **Value Proposition**
+"Indulge in delicious ice cream with 20 g of protein and 85% less sugar—our clean-label scoop satisfies your sweet tooth and your macros, without compromise."
+
+🏆 **Competitive Positioning**
+- Vs traditional pints: superior nutritional profile—high protein, low sugar/fat
+- Vs basic protein desserts: delivers a true ice cream experience with advanced texture engineering
+- Vs diet‑focused brands: shifts from subtraction (low‑cal) to addition (functional protein) approach
+
+🎨 **Brand Personality**
+- Bold & Energetic – "made for movement and muscle"
+- Transparent & Trustworthy – clean labels, no hidden sweeteners, fact-forward packaging
+- Fun & Connected – social media–savvy, seasonally rotating mix-ins, community challenges
+
+### Persona Examples
+
+**🧑‍🎓 Persona 1: Alex Walker — Young College Student**
+
+**Demographics**
+- Age: 20
+- Gender: Non‑binary
+- Location: Bloomington, IN (attending university)
+- Education: Undergraduate (Junior, Communications major)
+- Income: Part-time campus job + parental support
+
+**Interests**
+- Health & fitness (gym, yoga)
+- Trending on TikTok and Instagram
+- Campus life: events, social clubs, study groups
+- Likes trying new snacks, especially healthy indulgences
+
+**Pain Points**
+- Wants convenience, but cares about nutrition
+- Often on a tight student budget
+- Busy schedule balancing classes, work, social life
+- Feels guilty indulging in "junk food" but craves sweet treats
+
+**Buying Behavior**
+- Influenced by social media and peer reviews
+- Prefers affordable, value-packed snacks
+- Buys impulsively around campus or online sales
+- Loyal to brands that align with campus culture
+
+---
+
+**🧑‍💼 Persona 2: Michael Chen — Middle-Aged Manager**
+
+**Demographics**
+- Age: 42
+- Gender: Male
+- Location: Seattle, WA
+- Education: MBA, Business Administration
+- Occupation: Operations Manager at mid-size tech firm
+- Income: $120K/year
+
+**Interests**
+- Fitness (morning weights, weekend cycling)
+- Enjoys outdoor activities, woodworking projects
+- Reads business and self-improvement books
+- Follows tech & health podcasts
+
+**Pain Points**
+- Limited time for self-care & meal prep
+- Wants healthy treats without sacrificing taste
+- Concerned about long-term health indicators
+- Needs functional snacks that support his routine
+
+**Buying Behavior**
+- Research-driven (reads reviews, price-comparison)
+- Prefers premium, healthy, thoughtfully packaged products
+- Reorders favorites via Amazon subscriptions
+- Values brands with transparent, science-backed claims
+
+---
+
+**👩‍👧 Persona 3: Sarah Martinez — Mom of 5-Year-Old Daughter**
+
+**Demographics**
+- Age: 33
+- Gender: Female
+- Location: Houston, TX (suburbs)
+- Education: Bachelor's in Education
+- Occupation: Elementary school teacher (part-time)
+- Household Income: $75K/year (combined with partner)
+
+**Interests**
+- Family time: crafts, playdates, outdoor parks
+- Healthy, hassle-free meal & snack prep
+- Parenting blogs, educational play resources
+- Active on Pinterest, Instagram for kid-friendly ideas
+
+**Pain Points**
+- Juggling self-care with parenting responsibilities
+- Concerned about hidden sugars in kids' snacks
+- Needs snacks everyone in the family can enjoy
+- Craves convenient, portion-controlled treats
+
+**Buying Behavior**
+- Prefers reputable, kid-safe food brands
+- Buys in bulk from supermarkets/Costco
+- Influenced by school community, parenting forums
+- Makes repeat purchases when kids love it
+
 
 ## 🏗️ Architecture Overview
 
