@@ -76,9 +76,9 @@ def chat_llm(messages: List[Dict[str, str]], model: str = DEFAULT_MODEL) -> str:
     }
     
     # Exponential backoff configuration
-    max_retries = 3
+    max_retries = 10
     base_delay = 1
-    timeout = 60
+    timeout = 240
     
     for attempt in range(max_retries):
         try:

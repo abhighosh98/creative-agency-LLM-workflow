@@ -8,7 +8,7 @@ from agents.prompts import (
     SYSTEM_ONLINE_TRENDS_AGENT, SYSTEM_SUPERVISOR, SUPERVISOR_SYNTHESIS_PROMPT
 )
 from agents.tools import search_recent_trends
-
+import time
 
 class AgentState(TypedDict):
     """State structure for the multi-agent system."""
@@ -33,6 +33,7 @@ def branding_agent(state: AgentState) -> Dict[str, Any]:
         Updated state with branding analysis
     """
     try:
+        time.sleep(2)
         # Prepare context for branding analysis
         context = f"""
 Product/Brand: {state['product_description']}
@@ -84,6 +85,7 @@ def marketing_agent(state: AgentState) -> Dict[str, Any]:
         Updated state with marketing analysis
     """
     try:
+        time.sleep(2)
         context = f"""
 Product/Brand: {state['product_description']}
 
@@ -133,6 +135,7 @@ def product_agent(state: AgentState) -> Dict[str, Any]:
         Updated state with product analysis
     """
     try:
+        time.sleep(2)
         context = f"""
 Product/Brand: {state['product_description']}
 
@@ -181,6 +184,7 @@ def trends_agent(state: AgentState) -> Dict[str, Any]:
         Updated state with trends analysis
     """
     try:
+        time.sleep(2)
         # Extract keywords from product description for trend search
         product_keywords = state['product_description'][:100]  # First 100 chars
         
@@ -233,6 +237,7 @@ def supervisor_agent(state: AgentState) -> Dict[str, Any]:
         Updated state with final report
     """
     try:
+        time.sleep(2)
         # Format all outputs for synthesis
         synthesis_prompt = SUPERVISOR_SYNTHESIS_PROMPT.format(
             branding_output=json.dumps(state['branding_output'], indent=2),
